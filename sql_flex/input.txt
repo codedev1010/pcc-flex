@@ -1,4 +1,2 @@
-SELECT name, age FROM students WHERE id = 5;
-INSERT INTO students VALUES ('Rounak', 21);
-UPDATE students SET age = 22 WHERE name = 'Rounak';
-DELETE FROM students WHERE age > 20;
+INSERT INTO VALUES("1, 'Alice');
+SELECT * FROM ABC;

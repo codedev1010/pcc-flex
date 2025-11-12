@@ -2,13 +2,12 @@
 #include <stdio.h>
 %}
 
-/* Define regular expressions for token patterns */
 KEYWORD     (SELECT|FROM|WHERE|INSERT|INTO|VALUES|UPDATE|SET|DELETE|CREATE|TABLE|DROP)
 IDENTIFIER  [a-zA-Z_][a-zA-Z0-9_]*
 NUMBER      [0-9]+
-OPERATOR    (=|<|>|<=|>=|!=)
+OPERATOR    (\+|\-|\*|\/|=|<|>|<=|>=|!=|AND|OR)
 STRING      \'[^\']*\'
-PUNCT       [;,()]
+PUNCTUATION       [;,()]
 
 %%
 

@@ -1,0 +1,5 @@
+int a, b;
+float x;
+a = 5;
+b = a + 10;
+return b;
